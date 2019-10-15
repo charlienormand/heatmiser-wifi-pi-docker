@@ -1,4 +1,4 @@
-FROM charlienormand/heatmiser-pi
+FROM charlienormand/docker-alpine-perl-devel-pi
 RUN apk update && \
     apk add make && \
     apk add tzdata && \
